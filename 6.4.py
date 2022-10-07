@@ -2,7 +2,8 @@ words = input('Введите строку\n')
 sumTitle = 0
 sumSigns = 0
 for word in words.split():
-    word = ' '.join(word)
+    word = ''.join(word)
+    print(word)
     if word.istitle()==True:
         sumTitle += 1
     if word[-1] in '.,:;?!':
