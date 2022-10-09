@@ -1,6 +1,7 @@
 arr = list(map(str,input("Введите массив действительных чисел: ").split()))
 sum_0 = 0
 maximum = 0
+k = 0
 for i in range(len(arr)):
     if arr[i] == '0':
         sum_0 += 1
@@ -11,8 +12,6 @@ for i in range(len(arr)):
         sum_0 = 0
 
 print(f'Длинa максимальной последовательности подряд идущих нулей {maximum}\nИндекс первого элемента этой последовательности {k}')
-
-
 
 
 '''arr = list(map(str,input().split(' ')))
