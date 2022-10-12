@@ -7,4 +7,4 @@ vector2 = array(list2)
 
 print(vector1*vector2)'''
 
-print(array(list(map(int,input('Введите первый массив: ').split())))*array(list(map(int,input('Введите второй массив: ').split()))))
+print(sum(array(list(map(int,input('Введите первый массив: ').split())))*array(list(map(int,input('Введите второй массив: ').split())))))
