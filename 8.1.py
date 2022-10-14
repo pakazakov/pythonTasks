@@ -6,12 +6,14 @@ maximum = max(dic.values())
 print(f'Средний балл: {medium}. Список участников, балл которых выше среднего:')
 for key, val in dic.items():
     if val > medium:
-        print(key)
+        print(f'{key} - {val} баллов')
 
+print(f'Минимум: {minimum}, получил(а):')
 for key, val in dic.items():
     if val == minimum:
-        print(f'Минимум: {minimum}, получил(а): {key}')
+        print(f'{key}')
 
+print(f'Максимум: {maximum}, получил(а):')
 for key, val in dic.items():
     if val == maximum:
-        print(f'Максимум: {maximum}, получил(а): {key}')
+        print(f'{key}')
