@@ -3,7 +3,10 @@ dic = {'привет': 'hello',
        'ты': 'you',
        'я': 'i',
        'сделал': 'made',
-       'словарь': 'dictionary'}
+       'словарь': 'dictionary',
+       'умею': 'can',
+       'переводить': 'translate',
+       'слова': 'words'}
 
 text = input('Введите текст: ').lower().split()
 
