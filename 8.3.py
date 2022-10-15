@@ -5,7 +5,7 @@ dic = {'привет': 'hello',
        'сделал': 'made',
        'словарь': 'dictionary'}
 
-text = input('Введите текст: ').split()
+text = input('Введите текст: ').lower().split()
 
 arr = []
 try:
