@@ -10,6 +10,6 @@ try:
     for line in text.splitlines():
         key, val = line.split(': ')
         dic[key] = val.split(', ')
-    print(dic[input('Введите фамилию автора: ')])
+    print(dic[input('Введите фамилию автора: ').title()])
 except:
     print("Книг такого автора нет в словаре")
