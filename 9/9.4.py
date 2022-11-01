@@ -6,5 +6,5 @@ for i in text:
     j = i.split()
     r.append(f"Chapter {j[0]}. {j[1]}")
 
-with open("4_reesult.txt", "w") as f:
+with open("4_result.txt", "w") as f:
     print("\n".join(r), file=f)
